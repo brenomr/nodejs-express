@@ -1,0 +1,10 @@
+Instalar:
+    NodeJS - Base do projeto;
+    Express (npm install express) - Ferramenta para servidor e rota;
+    Nodemon (npm install nodemo) -  Ferramenta para restart do servidor e 'listener' para observar alterações no projeto e 'restartar' automaticamente.;
+    Consign (npm install consign) - Agrupa todas rotas desenvolvidas em locais diferentes no index.js
+
+Estrutura do projeto:
+    index -         Tem o dever de apenas 'subir' o servidor;
+    controllers -   Onde as rotas são 'controladas';
+    config -        Todos os documentos de configuração do servidor ficam lá;
