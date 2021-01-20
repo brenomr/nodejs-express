@@ -1,10 +1,10 @@
-// Chamar a configuração do modulo customExpress em config
+// Index = subir servidor. Chamar a configuração do modulo customExpress em config
 const customExpress = require('./config/customExpress');
 
 const conexao = require('./infraestrutura/conexao');
-const tabelas = require('./infraestrutura/tabelas');
-
 const Tabelas = require('./infraestrutura/tabelas');
+
+//const tabelas = require('./infraestrutura/tabelas');
 
 conexao.connect((erro) => {
     if (erro) {

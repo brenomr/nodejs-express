@@ -1,3 +1,4 @@
+// Comportamento na criação das tabelas - objeto tabelas
 class Tabelas {
     init(conexao) {
         this.conexao = conexao;

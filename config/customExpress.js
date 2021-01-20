@@ -1,4 +1,4 @@
-// Definição das variáveis do express e consign
+// customExpress = Configurar o express
 const express = require('express');
 const consign = require('consign');
 const bodyParser = require('body-parser');
@@ -7,7 +7,7 @@ module.exports = () => {
     // Configuração do app com Express
     const app = express();
 
-    // Chamando bibliotecas com o app
+    // Chamando biblioteca bodyparser para tradução da requisição em urlenconded e json
     app.use(bodyParser.urlencoded({extend: true}));
     app.use(bodyParser.json());
 
