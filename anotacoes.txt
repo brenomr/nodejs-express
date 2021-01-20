@@ -3,6 +3,7 @@ Instalar:
     Express (npm install express) - Ferramenta para servidor e rota;
     Nodemon (npm install nodemo) -  Ferramenta para restart do servidor e 'listener' para observar alterações no projeto e 'restartar' automaticamente.;
     Consign (npm install consign) - Agrupa todas rotas desenvolvidas em locais diferentes no index.js
+    Moment (npm install moment) - Útil para trabalhar com datas;
 
 Estrutura do projeto:
     index -         Tem o dever de apenas 'subir' o servidor;
